@@ -10,8 +10,8 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@monorepo/first-ui": "workspace:*",
-    "@monorepo/second-ui": "workspace:*"
+    "@monorepo/first-ui": "file:../apps/first-ui",
+    "@monorepo/second-ui": "file:../apps/second-ui"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",

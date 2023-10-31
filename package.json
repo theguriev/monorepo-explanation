@@ -4,5 +4,9 @@
   "version": "1.0.0",
   "author": "Eugen Guriev <gurievcreative@gmail.com>",
   "license": "MIT",
-  "packageManager": "pnpm@8.6.11"
+  "workspaces": [
+    "portal",
+    "apps/first-ui",
+    "apps/second-ui"
+  ]
 }
